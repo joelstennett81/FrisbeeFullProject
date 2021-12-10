@@ -47,9 +47,6 @@
     <Compile Include="FrisbeeApp\views\player_game_views.py" />
     <Compile Include="FrisbeeApp\views\player_views.py" />
     <Compile Include="FrisbeeApp\views\team_views.py" />
-    <Compile Include="FrisbeeApp\views\game_views.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="FrisbeeApp\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="FrisbeeFullProject\__init__.py" />
@@ -58,12 +55,6 @@
     <Compile Include="FrisbeeFullProject\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FrisbeeApp\templates\FrisbeeApp\GameTemplates\detail_view.html" />
-    <Content Include="FrisbeeApp\templates\FrisbeeApp\GameTemplates\list_view.html" />
-    <Content Include="FrisbeeApp\templates\FrisbeeApp\GameTemplates\update_view.html" />
-    <Content Include="FrisbeeApp\templates\FrisbeeApp\GameTemplates\create_view.html">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="FrisbeeApp\templates\FrisbeeApp\home_page.html" />
     <Content Include="FrisbeeApp\templates\FrisbeeApp\LeagueTemplates\create_view.html" />
     <Content Include="FrisbeeApp\templates\FrisbeeApp\LeagueTemplates\detail_view.html" />
@@ -87,7 +78,6 @@
     <Folder Include="FrisbeeApp\" />
     <Folder Include="FrisbeeApp\migrations\" />
     <Folder Include="FrisbeeApp\forms\" />
-    <Folder Include="FrisbeeApp\templates\FrisbeeApp\GameTemplates\" />
     <Folder Include="FrisbeeApp\templates\FrisbeeApp\PlayerGameTemplates\" />
     <Folder Include="FrisbeeApp\templates\FrisbeeApp\TeamTemplates\" />
     <Folder Include="FrisbeeApp\templates\FrisbeeApp\PlayerTemplates\" />
